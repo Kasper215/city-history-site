@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "sass": "^1.108.2"
+  },
+  "scripts": {
+    "build:css": "sass scss/styles.scss css/styles.css --no-source-map",
+    "build:park-css": "sass \"2.3.2 Усложненное задание/styles.scss\" \"2.3.2 Усложненное задание/styles.css\" --no-source-map",
+    "build:all-css": "npm run build:css && npm run build:park-css"
+  }
+}
